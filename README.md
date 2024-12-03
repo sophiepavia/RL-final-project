@@ -13,7 +13,7 @@ on continuous-action OpenAI Gym environments, **Pendulum** and **BipedalWalker**
 
 The goal of this project is to compare on-policy and off-policy RL methods in terms of:
 
-- **Sample Efficiency**: How efficiently each method learns from collected data.
+- **Sample Efficiency**: How efficiently each method learns from collected data. i.e. Learning speed
 - **Stability of Learning**: The consistency of performance during training.
 - **Robustness**: Performance in challenging continuous control tasks.
 
