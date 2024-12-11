@@ -1,0 +1,7 @@
+nohup: ignoring input
+Running training with method A2C on environment Pendulum-v1. Logging to A2C_Pendulum-v1.log
+Running training with method A2C on environment BipedalWalker-v2. Logging to A2C_BipedalWalker-v2.log
+Running training with method TD3 on environment Pendulum-v1. Logging to TD3_Pendulum-v1.log
+Running training with method TD3 on environment BipedalWalker-v2. Logging to TD3_BipedalWalker-v2.log
+Running training with method SAC on environment Pendulum-v1. Logging to SAC_Pendulum-v1.log
+Running training with method SAC on environment BipedalWalker-v2. Logging to SAC_BipedalWalker-v2.log

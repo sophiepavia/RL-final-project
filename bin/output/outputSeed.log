@@ -1,0 +1,19 @@
+nohup: ignoring input
+Running training with method A2C on environment Pendulum-v1. Logging to ./output/A2C_Pendulum-v1_0.log
+Running training with method A2C on environment BipedalWalker-v3. Logging to ./output/A2C_BipedalWalker-v3_0.log
+Running training with method TD3 on environment Pendulum-v1. Logging to ./output/TD3_Pendulum-v1_0.log
+Running training with method TD3 on environment BipedalWalker-v3. Logging to ./output/TD3_BipedalWalker-v3_0.log
+Running training with method SAC on environment Pendulum-v1. Logging to ./output/SAC_Pendulum-v1_0.log
+Running training with method SAC on environment BipedalWalker-v3. Logging to ./output/SAC_BipedalWalker-v3_0.log
+Running training with method A2C on environment Pendulum-v1. Logging to ./output/A2C_Pendulum-v1_42.log
+Running training with method A2C on environment BipedalWalker-v3. Logging to ./output/A2C_BipedalWalker-v3_42.log
+Running training with method TD3 on environment Pendulum-v1. Logging to ./output/TD3_Pendulum-v1_42.log
+Running training with method TD3 on environment BipedalWalker-v3. Logging to ./output/TD3_BipedalWalker-v3_42.log
+Running training with method SAC on environment Pendulum-v1. Logging to ./output/SAC_Pendulum-v1_42.log
+Running training with method SAC on environment BipedalWalker-v3. Logging to ./output/SAC_BipedalWalker-v3_42.log
+Running training with method A2C on environment Pendulum-v1. Logging to ./output/A2C_Pendulum-v1_2024.log
+Running training with method A2C on environment BipedalWalker-v3. Logging to ./output/A2C_BipedalWalker-v3_2024.log
+Running training with method TD3 on environment Pendulum-v1. Logging to ./output/TD3_Pendulum-v1_2024.log
+Running training with method TD3 on environment BipedalWalker-v3. Logging to ./output/TD3_BipedalWalker-v3_2024.log
+Running training with method SAC on environment Pendulum-v1. Logging to ./output/SAC_Pendulum-v1_2024.log
+Running training with method SAC on environment BipedalWalker-v3. Logging to ./output/SAC_BipedalWalker-v3_2024.log

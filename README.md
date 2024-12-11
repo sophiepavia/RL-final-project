@@ -46,6 +46,4 @@ conda env create -f environment.yml
 ```bash
 python train.py --env Pendulum-v1 --method SAC
 
-python test.py --env Pendulum-v1 --method SAC
-
 ```

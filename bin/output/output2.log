@@ -1,0 +1,4 @@
+nohup: ignoring input
+Running training with method A2C on environment BipedalWalker-v3. Logging to A2C_BipedalWalker-v3.log
+Running training with method TD3 on environment BipedalWalker-v3. Logging to TD3_BipedalWalker-v3.log
+Running training with method SAC on environment BipedalWalker-v3. Logging to SAC_BipedalWalker-v3.log
