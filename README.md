@@ -36,14 +36,18 @@ We test these methods on two OpenAI Gym environments:
 - **`bin/`**: Implementation of A2C, SAC, and TD3 algorithms.
 - **`environment.yml`**: Environment file for conda env creation
 - **`results/`**: Training logs, performance plots, and evaluation metrics.
-- **`notebooks/`**: Jupyter notebooks for analysis and visualization.
+- **`notebooks/`**: notebooks for analysis and visualization.
 
 ## Getting Started
 
 ```bash
 conda env create -f environment.yml
 ```
+Running the repo via command line is the preferred method over the notebook
 ```bash
-python train.py --env Pendulum-v1 --method SAC
-
+python train.py --env "Pendulum-v1" --method "SAC" --seed 0
+```
+To connect to tensorboard plotting during training
+```
+tensorboard --logdir ../notebooks/tensorboard/a2c_Pendulum-v1_seed1/
 ```
