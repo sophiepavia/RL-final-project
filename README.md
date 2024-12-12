@@ -37,10 +37,10 @@ We test these methods on two OpenAI Gym environments:
     - **`bin/logs/`**: Sample efficiency data
     - **`bin/output/`**: Training and Evaluation output
     - **`bin/tensorboard/`**: Tensorboard logs
-- **`hyperparameters\`**: Hyperparameter YML from RL Baselines3 Zoo
+- **`hyperparameters/`**: Hyperparameter YML from RL Baselines3 Zoo
 - **`environment.yml`**: Environment file for conda env creation
-- **`results/`**: Training logs, performance plots, and evaluation metrics.
 - **`notebooks/`**: notebooks for analysis and visualization.
+    - **`notebooks/continuous-control.ipynb`**: Main notebook for example training and evaluation
 
 ## Getting Started
 
