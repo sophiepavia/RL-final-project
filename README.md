@@ -34,6 +34,10 @@ We test these methods on two OpenAI Gym environments:
 ## Repository Contents
 
 - **`bin/`**: Implementation of A2C, SAC, and TD3 algorithms.
+    - **`bin/logs/`**: Sample efficiency data
+    - **`bin/output/`**: Training and Evaluation output
+    - **`bin/tensorboard/`**: Tensorboard logs
+- **`hyperparameters\`**: Hyperparameter YML from RL Baselines3 Zoo
 - **`environment.yml`**: Environment file for conda env creation
 - **`results/`**: Training logs, performance plots, and evaluation metrics.
 - **`notebooks/`**: notebooks for analysis and visualization.
@@ -43,6 +47,11 @@ We test these methods on two OpenAI Gym environments:
 ```bash
 conda env create -f environment.yml
 ```
+
+```
+conda activate py37
+```
+
 Running the repo via command line is the preferred method over the notebook
 ```bash
 python train.py --env "Pendulum-v1" --method "SAC" --seed 0
@@ -50,4 +59,9 @@ python train.py --env "Pendulum-v1" --method "SAC" --seed 0
 To connect to tensorboard plotting during training
 ```
 tensorboard --logdir ../notebooks/tensorboard/a2c_Pendulum-v1_seed1/
+```
+
+To run multiple experiments use run.sh
+```
+nohup ./run.sh > ./output/output.log 2>&1 &
 ```
