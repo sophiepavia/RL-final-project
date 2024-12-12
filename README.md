@@ -32,7 +32,7 @@ We test these methods on two OpenAI Gym environments:
 
 
 ## Repository Contents
-
+- **`RL-final-report-pavia.pdf`**: final report
 - **`bin/`**: Implementation of A2C, SAC, and TD3 algorithms.
     - **`bin/logs/`**: Sample efficiency data
     - **`bin/output/`**: Training and Evaluation output
